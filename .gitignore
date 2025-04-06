@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Flask instance folder and config
+instance/
+*.pyc
+
+# Flask/Dotenv
+.env
+*.env
+
+# Pytest / Coverage / Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+
+# Database
+*.sqlite3
+*.db
+
+# Mypy / Type checking
+.mypy_cache/
+.dmypy.json

@@ -1,0 +1,14 @@
+services: []
+cronJobs:
+  - name: Run Trading at 8:30
+    schedule: "30 8 * * 1-5"
+    timezone: America/New_York
+    command: "python run_trading.py"
+  - name: Run Trading at 9:30
+    schedule: "30 9 * * 1-5"
+    timezone: America/New_York
+    command: "python run_trading.py"
+  - name: Run Trading at 10:00
+    schedule: "0 10 * * 1-5"
+    timezone: America/New_York
+    command: "python run_trading.py"
